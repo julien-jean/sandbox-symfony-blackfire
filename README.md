@@ -1,6 +1,10 @@
 # Symfony webapp x Blackfire
 
-A playground with symfony + blackfire.
+> :warning: Please note **this is a personal sandbox repo** I'm using to test some configurations that might not be the best ones.
+>
+> Always refer to https://docs.blackfire.io for battle-tested docs about how to use Blackfire with Symfony :+1:
+
+A playground with Symfony + Blackfire.
 
 It is composed of:
 
