@@ -1,0 +1,8 @@
+#!/blackfire-player
+
+scenario
+    name "test through symfony proxy"
+    blackfire true
+
+    visit url("/")
+        expect status_code() == 404

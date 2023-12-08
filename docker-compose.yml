@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  # The blackfire agent runs here
+  webapp-agent:
+    image: blackfire/blackfire:2
+    user: root
+    # exposing the agent on a dedicated port to avoid any disturbances
+    ports:
+      - "8311:8311"
+    env_file:
+      - .env.agent.local
